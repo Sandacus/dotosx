@@ -13,8 +13,6 @@ else
 "    colorscheme solarized 
 endif
 
-
-
 filetype plugin indent on
 syntax on
 set number
