@@ -1,16 +1,15 @@
-# Sandy's muttrc
+# Sandy's neomuttrc
 
 # ---------------------------------------------------------
 # VARIABLES 
 # ---------------------------------------------------------
-set sidebar = yes
+set sidebar_visible = yes
 set sidebar_width = 20
 set sidebar_short_path = yes
-set sidebar_component_depth = 0
 set sidebar_delim_chars = '/'
 set sidebar_divider_char = '|'
 set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
-
+set mail_check_stats
 # ---------------------------------------------------------
 # COLORS
 # ---------------------------------------------------------
