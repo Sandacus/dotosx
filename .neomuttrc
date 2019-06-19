@@ -1,15 +1,16 @@
 # Sandy's neomuttrc
-
+set folder = "imaps://sandy@alexanderlamond.co.uk@mail.alexanderlamond.co.uk:993"
+set spoolfile = "+INBOX"
 # ---------------------------------------------------------
 # VARIABLES 
 # ---------------------------------------------------------
-set sidebar_visible = yes
-set sidebar_width = 20
-set sidebar_short_path = yes
-set sidebar_delim_chars = '/'
-set sidebar_divider_char = '|'
-set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
-set mail_check_stats
+#set sidebar_visible = yes
+#set sidebar_width = 20
+#set sidebar_short_path = yes
+#set sidebar_delim_chars = '/'
+#set sidebar_divider_char = '|'
+#set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
+#set mail_check_stats
 # ---------------------------------------------------------
 # COLORS
 # ---------------------------------------------------------
@@ -17,14 +18,14 @@ set mail_check_stats
 #       color OBJECT FOREGROUND BACKGROUND
 # Color of the current, open, mailbox
 # nb: this is a general Neomutt option which colors all selected items.
-color indicator cyan black
+#color indicator cyan black
 # Color of the highlighted, but not open mailbox
-color sidebar_highlight black color8
+#color sidebar_highlight black color8
 # Color of the divider separating the Sidebar from Neomutt panels
-color sidebar_divider color8 black
+#color sidebar_divider color8 black
 # Color to give mailboxes containing new mail
-color sidebar_new green black
+#color sidebar_new green black
 # Color to give mailboxes containing no new/flagged mail etc.
-color sidebar_ordinary color245 default
+#color sidebar_ordinary color245 default
 
 # vim: syntax=neomuttrc
