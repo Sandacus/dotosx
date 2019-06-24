@@ -7,10 +7,8 @@ if has('gui_running')
     colorscheme solarized
     let g:airline_theme='solarized'
 else
-"    set background=dark
-"    let g:solarized_termcolors=256   
-"    let g:airline_theme='solarized'
-"    colorscheme solarized 
+    set background=dark
+    colorscheme farout 
 endif
 
 filetype plugin indent on
